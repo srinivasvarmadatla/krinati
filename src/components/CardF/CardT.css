@@ -1,0 +1,74 @@
+.Card-outer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Card-outer .Card-inner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid white;
+    border-radius: 12px;
+    flex-direction: column;
+    color: white;
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 20px;
+}
+
+.Card-outer .Card-inner img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.Card-outer .Card-inner .Card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap:0px;
+    margin: 50px;
+}
+
+.Card-outer .Card-inner .Card-body h2{
+    font-size: 30px;
+    padding: 0;
+    margin: 0px;
+}
+
+.Card-outer .Card-inner .Card-body .product-c-c{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: baseline;
+}
+
+.Card-outer .Card-inner .Card-body p{
+    font-size: 23px;
+}
+.Card-outer .Card-inner .Card-body .original-p{
+    color: red;
+    margin: 0px;
+    text-decoration: line-through;
+    margin-top:20px;
+}
+
+.Card-outer .Card-inner .Card-body .current-p{
+    color: lawngreen;
+    margin: 0px;
+}
