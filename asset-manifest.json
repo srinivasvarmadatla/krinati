@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/krinati/static/css/main.a55898dc.css",
+    "main.js": "/krinati/static/js/main.2f512adb.js",
+    "static/media/body3.jpg": "/krinati/static/media/body3.843d66fa8974029dfbb4.jpg",
+    "static/media/body1.jpg": "/krinati/static/media/body1.70b389041e0f6815828e.jpg",
+    "static/media/body2.jpg": "/krinati/static/media/body2.0dab21e1bad4663fd0b9.jpg",
+    "static/media/body4.jpg": "/krinati/static/media/body4.ce7c3791fd65c4bc2007.jpg",
+    "static/media/shopping-cart.png": "/krinati/static/media/shopping-cart.d0a8355ac131ac91ec12.png",
+    "index.html": "/krinati/index.html",
+    "main.a55898dc.css.map": "/krinati/static/css/main.a55898dc.css.map",
+    "main.2f512adb.js.map": "/krinati/static/js/main.2f512adb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a55898dc.css",
+    "static/js/main.2f512adb.js"
+  ]
+}
