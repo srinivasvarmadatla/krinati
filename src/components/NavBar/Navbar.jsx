@@ -1,21 +1,17 @@
-import React from 'react';
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
-
 import './NavBar.css';
-
 import cart from '../../Assets/shopping-cart.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
-function Header(){
-    const navRef=useRef();
+function Header() {
+    const navRef = useRef();
 
-    const shownavbar=()=>{
+    const shownavbar = () => {
         navRef.current.classList.toggle("resp_nav");
-    }
+    };
 
-
-    return(
+    return (
         <div className='header-main-1'>
             <div className='header-main-LOGO'>
                 <h2>KRINATI</h2>
@@ -38,10 +34,11 @@ function Header(){
                 <div className='header-main-list-item-right'>
                     <div className='header-main-list-item-btn'>
                         <Link to="/Login">
-                        <button className='button-35'>LOGIN</button>
+                            <button className='button-35'>LOGIN</button>
                         </Link>
-                            <img src={cart} alt="" />
-                            <div className='cart-item-counter'>0</div>
+                        <Link to="/Cart">
+                            <img src={cart} alt="Cart" className="cart-icon" />
+                        </Link>
                     </div>
                 </div>
                 <div className='nav-btn-close' onClick={shownavbar}>
@@ -52,7 +49,7 @@ function Header(){
                 <input className='menu-searchbar' type='text' placeholder='Shoes' />
             </div>
             <div className='hambuger' onClick={shownavbar}>
-                <FaBars/>
+                <FaBars />
             </div>
         </div>
     );

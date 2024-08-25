@@ -5,21 +5,21 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid white;
     border-radius: 12px;
     color: white;
     box-sizing: border-box;
     overflow: hidden;
+    box-shadow: 0px 0px 12px rgba(255,255,255,0.5);
 }
 
 .Card-outer .Card-inner{
+    border:0px;
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border:1px solid white;
     border-radius: 12px;
     flex-direction: column;
     color: white;
@@ -62,7 +62,7 @@
     font-size: 23px;
 }
 .Card-outer .Card-inner .Card-body .original-p{
-    color: red;
+    color: white;
     margin: 0px;
     text-decoration: line-through;
     margin-top:20px;
@@ -71,4 +71,19 @@
 .Card-outer .Card-inner .Card-body .current-p{
     color: lawngreen;
     margin: 0px;
+}
+
+.Card-outer .Card-inner .Card-body .add-to-cart{
+    margin: 10px;
+    width: auto;
+    height: 40px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    border: 0px;
+}
+.Card-outer .Card-inner .Card-body .add-to-cart:hover{
+    background-color: rgba(255,255,255,0.4);
+    color: white;
 }
